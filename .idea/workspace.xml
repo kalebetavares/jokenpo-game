@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="594aaacf-221d-4bde-9bc6-d299e3a1076c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jokenpo/game/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jokenpo/game/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jokenpo/game/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jokenpo/game/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jokenpo/game/service/GameService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -26,6 +26,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2DoHlhMyS7vDTW5fpY3fk9N8ywc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,24 +42,46 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/Kalebe Tavares/Desktop/Workspace/Alura/java-io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.jokenpo.game" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.jokenpo.game.service" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
-    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.jokenpo.game.Game" />
       <module name="jokenpo-game" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.jokenpo.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jokenpo-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.jokenpo.game.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,7 +96,7 @@
       <module name="jokenpo-game" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.jokenpo.game.*" />
+          <option name="PATTERN" value="br.com.jokenpo.game.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,26 +108,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InicialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jokenpo-game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.jokenpo.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.jokenpo.game" />
-      <option name="MAIN_CLASS_NAME" value="br.com.jokenpo.game.InicialTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InicialTest.StarGameWithOnePlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jokenpo-game" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.jokenpo.game.*" />
+          <option name="PATTERN" value="br.com.jokenpo.game.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,7 +128,7 @@
       <module name="jokenpo-game" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.jokenpo.game.*" />
+          <option name="PATTERN" value="br.com.jokenpo.game.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.ShouldStartGame" />
         <item itemvalue="JUnit.InicialTest.StarGameWithTwoPlayer" />
         <item itemvalue="JUnit.InicialTest.StarGameWithOnePlayer" />
-        <item itemvalue="JUnit.InicialTest" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +161,7 @@
       <workItem from="1661358683965" duration="1589000" />
       <workItem from="1661360771474" duration="4308000" />
       <workItem from="1661427858548" duration="627000" />
-      <workItem from="1661428524452" duration="6216000" />
+      <workItem from="1661428524452" duration="8258000" />
     </task>
     <servers />
   </component>

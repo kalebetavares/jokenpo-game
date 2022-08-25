@@ -22,7 +22,9 @@ public class GameService implements Comparator<Card>{
 
     private void toBattle() {
         System.out.println("Which symbol do you want to play?\n1-Paper 2-Stone 3-Scissor");
+        System.out.println("Player 1:");
         Integer numbercard1 = input.nextInt();
+        System.out.println("Player 2:");
         Integer numberCard2 = input.nextInt();
 
         cardsPlayer1.playCard(numbercard1);
@@ -34,7 +36,7 @@ public class GameService implements Comparator<Card>{
     private void battleOfCards(Card card1, Card card2) {
         Integer result = compare(card1, card2);
         if(card1.equals(card2)) System.out.println("Players drew!");
-        else if (result == 1) {
+        else if (result > 1) {
             System.out.println("Player 1 win!");
         } else {
             System.out.println("Player 2 win!");
