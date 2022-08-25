@@ -12,12 +12,14 @@ public class GameService implements Comparator<Card>{
     private Deck cardsPlayer2 = new Deck();
 
     public void startGame() {
-        System.out.println("Do you want to play solo or two players?");
+        /*System.out.println("Do you want to play solo or two players?");
         Integer numberOfPlayers = this.input.nextInt();
         if(numberOfPlayers == 2) {
             System.out.println("Welcome to Jokenpo!");
             toBattle();
-        }
+        }*/
+
+        toBattle();
     }
 
     private void toBattle() {
@@ -36,7 +38,7 @@ public class GameService implements Comparator<Card>{
     private void battleOfCards(Card card1, Card card2) {
         Integer result = compare(card1, card2);
         if(card1.equals(card2)) System.out.println("Players drew!");
-        else if (result > 1) {
+        else if (result > 0) {
             System.out.println("Player 1 win!");
         } else {
             System.out.println("Player 2 win!");
