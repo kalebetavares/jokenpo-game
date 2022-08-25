@@ -7,7 +7,7 @@ public enum Card {
     Card(Integer value) {
      this.value = value;
     }
-
+    
     public Integer getValue() {
         return this.value;
     }
