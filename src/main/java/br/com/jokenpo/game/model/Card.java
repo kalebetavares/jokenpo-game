@@ -1,4 +1,4 @@
-package br.com.jokenpo.game;
+package br.com.jokenpo.game.model;
 
 public enum Card {
     PAPER(1), STONE(2), SCISSOR(3);

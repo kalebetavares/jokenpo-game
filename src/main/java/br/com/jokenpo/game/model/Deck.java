@@ -1,4 +1,6 @@
-package br.com.jokenpo.game;
+package br.com.jokenpo.game.model;
+
+import br.com.jokenpo.game.model.Card;
 
 public class Deck {
     private Card card;

@@ -1,4 +1,7 @@
-package br.com.jokenpo.game;
+package br.com.jokenpo.game.service;
+
+import br.com.jokenpo.game.model.Card;
+import br.com.jokenpo.game.model.Deck;
 
 import java.util.Comparator;
 import java.util.Scanner;
