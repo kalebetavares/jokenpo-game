@@ -20,10 +20,10 @@ public class GameService /*implements Comparator<Card>*/{
         if(numberOfPlayers == 2) {
             System.out.println("Welcome to Jokenpo!");
             toBattleTwoPlayers();
+        } else {
+            System.out.println("Welcome to Jokenpo!");
+            toBattleComputer();
         }
-
-        System.out.println("Welcome to Jokenpo!");
-        toBattleComputer();
     }
 
     private void toBattleComputer(){

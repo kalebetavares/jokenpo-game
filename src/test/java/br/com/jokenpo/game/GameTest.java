@@ -46,6 +46,7 @@ public class GameTest {
         if(numberOfPlayers == 2) {
             toBattleTwoPlayer();
         }
+
         toBattleComputer();
     }
 
