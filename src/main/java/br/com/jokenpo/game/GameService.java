@@ -12,6 +12,7 @@ public class GameService implements Comparator<Card>{
         System.out.println("Do you want to play solo or two players?");
         Integer numberOfPlayers = this.input.nextInt();
         if(numberOfPlayers == 2) {
+            System.out.println("Welcome to Jokenpo!");
             toBattle();
         }
     }

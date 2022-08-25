@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="594aaacf-221d-4bde-9bc6-d299e3a1076c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jokenpo/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/jokenpo/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/jokenpo/game/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/jokenpo/game/Game.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +39,50 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Kalebe Tavares/Desktop/Workspace/jokenpo-game/jokenpo-game",
+    "last_opened_file_path": "C:/Users/Kalebe Tavares/Desktop/Workspace/Alura/java-io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.InicialTest.StarGameWithTwoPlayer">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.jokenpo.game" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GameTest">
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jokenpo-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.jokenpo.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.jokenpo.game" />
+      <option name="MAIN_CLASS_NAME" value="br.com.jokenpo.game.GameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.ShouldStartGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jokenpo-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.jokenpo.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.jokenpo.game" />
+      <option name="MAIN_CLASS_NAME" value="br.com.jokenpo.game.GameTest" />
+      <option name="METHOD_NAME" value="ShouldStartGame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InicialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jokenpo-game" />
       <extension name="coverage">
@@ -63,38 +94,6 @@
       <option name="PACKAGE_NAME" value="br.com.jokenpo.game" />
       <option name="MAIN_CLASS_NAME" value="br.com.jokenpo.game.InicialTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InicialTest.PedraGanhaDeTesoura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jokenpo-game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.jokenpo.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.jokenpo.game" />
-      <option name="MAIN_CLASS_NAME" value="br.com.jokenpo.game.InicialTest" />
-      <option name="METHOD_NAME" value="PedraGanhaDeTesoura" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InicialTest.PedraGanharDePapel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jokenpo-game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.jokenpo.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.jokenpo.game" />
-      <option name="MAIN_CLASS_NAME" value="br.com.jokenpo.game.InicialTest" />
-      <option name="METHOD_NAME" value="PedraGanharDePapel" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest" />
+        <item itemvalue="JUnit.GameTest.ShouldStartGame" />
         <item itemvalue="JUnit.InicialTest.StarGameWithTwoPlayer" />
         <item itemvalue="JUnit.InicialTest.StarGameWithOnePlayer" />
         <item itemvalue="JUnit.InicialTest" />
-        <item itemvalue="JUnit.InicialTest.PedraGanhaDeTesoura" />
-        <item itemvalue="JUnit.InicialTest.PedraGanharDePapel" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +149,9 @@
       <option name="presentableId" value="Default" />
       <updated>1661358681025</updated>
       <workItem from="1661358683965" duration="1589000" />
-      <workItem from="1661360771474" duration="3687000" />
+      <workItem from="1661360771474" duration="4308000" />
+      <workItem from="1661427858548" duration="627000" />
+      <workItem from="1661428524452" duration="5536000" />
     </task>
     <servers />
   </component>
