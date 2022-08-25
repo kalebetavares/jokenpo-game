@@ -45,7 +45,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/Kalebe Tavares/Desktop/Workspace/Alura/java-testes-unitarios-tdd-projeto_inicial",
+    "last_opened_file_path": "C:/Users/Kalebe Tavares/Desktop/Workspace/Alura/alura-gerenciador-de-cursos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameTest.PaperWinsFromStone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jokenpo-game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.jokenpo.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.jokenpo.game" />
+      <option name="MAIN_CLASS_NAME" value="br.com.jokenpo.game.GameTest" />
+      <option name="METHOD_NAME" value="PaperWinsFromStone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GameTest.ShouldStartGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jokenpo-game" />
       <extension name="coverage">
@@ -104,22 +120,6 @@
       <option name="PACKAGE_NAME" value="br.com.jokenpo.game" />
       <option name="MAIN_CLASS_NAME" value="br.com.jokenpo.game.GameTest" />
       <option name="METHOD_NAME" value="ShouldStartGame" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InicialTest.StarGameWithOnePlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jokenpo-game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.jokenpo.game.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.jokenpo.game" />
-      <option name="MAIN_CLASS_NAME" value="br.com.jokenpo.game.InicialTest" />
-      <option name="METHOD_NAME" value="StarGameWithOnePlayer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Game" />
+        <item itemvalue="JUnit.GameTest.PaperWinsFromStone" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.ShouldStartGame" />
         <item itemvalue="JUnit.InicialTest.StarGameWithTwoPlayer" />
-        <item itemvalue="JUnit.InicialTest.StarGameWithOnePlayer" />
       </list>
     </recent_temporary>
   </component>
