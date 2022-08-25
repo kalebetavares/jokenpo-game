@@ -11,14 +11,16 @@ public class GameTest {
         startGame();
     }
 
-    private void toBattle() {
-    }
-
-    private void endGame() {
-
-    }
-
     private void startGame() {
+        System.out.println("Do you want to play solo or two players?");
+        Integer numberOfPlayers = 2;
+        if(numberOfPlayers == 2) {
+            toBattle();
+        }
+    }
+
+    private void toBattle() {
 
     }
+
 }
