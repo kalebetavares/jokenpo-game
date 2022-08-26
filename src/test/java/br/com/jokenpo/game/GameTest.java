@@ -25,12 +25,12 @@ public class GameTest {
     public void initialize(){
        this.cardsPlayer1 = new Deck();
        this.cardsPlayer2 = new Deck();
-       this.cardsComputer.add(1);
-       this.cardsComputer.add(2);
-       this.cardsComputer.add(3);
+
+       for(int i = 1; i >= 3; i++){
+           this.cardsComputer.add(i);
+       }
        Collections.shuffle(cardsComputer);
     }
-
 
     @Test
     public void PaperWinsFromStone(){
@@ -41,20 +41,20 @@ public class GameTest {
 
     private void startGame() {
         System.out.println("Do you want to play solo or two players?");
-        Integer numberOfPlayers = 1;
+        Integer numberOfPlayers = 2;
 
         if(numberOfPlayers == 2) {
             toBattleTwoPlayer();
         }
-
-        toBattleComputer();
+        else {
+            toBattleComputer();
+        }
     }
-
 
     private void toBattleComputer(){
         System.out.println("Which symbol do you want to play?\n1-Paper 2-Stone 3-Scissor");
-        Integer numberCard1 = 1;
-        Integer numberCard2 = cardsComputer.get(randomNumber);
+        int numberCard1 = 1;
+        int numberCard2 = cardsComputer.get(randomNumber);
 
         initialize();
 
@@ -66,8 +66,8 @@ public class GameTest {
 
     private void toBattleTwoPlayer() {
         System.out.println("Which symbol do you want to play?\n1-Paper 2-Stone 3-Scissor");
-        Integer numberCard1 = 1;
-        Integer numberCard2 = 2;
+        int numberCard1 = 1;
+        int numberCard2 = 2;
 
         initialize();
 
@@ -78,7 +78,7 @@ public class GameTest {
     }
 
     private void battleOfCardsComputer(Card card1, Card card2) {
-        Integer result = compare(card1, card2);
+        int result = compare(card1, card2);
         if(card1.equals(card2)) System.out.println("Players drew!");
         else if (result > 0) {
             playerWin = "Player 1 win!";
@@ -91,7 +91,7 @@ public class GameTest {
 
 
     private void battleOfCards(Card card1, Card card2) {
-        Integer result = compare(card1, card2);
+        int result = compare(card1, card2);
         if(card1.equals(card2)) System.out.println("Players drew!");
         else if (result > 0) {
             playerWin = "Player 1 win!";
